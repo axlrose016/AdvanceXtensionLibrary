@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="sqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>229, 17</value>
+  </metadata>
+  <metadata name="AdpHdr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>119, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [StudentPersonalInfo] WHERE (([Student_Id] = @Original_Student_Id) AND ((@IsNull_Fname = 1 AND [Fname] IS NULL) OR ([Fname] = @Original_Fname)) AND ((@IsNull_Mname = 1 AND [Mname] IS NULL) OR ([Mname] = @Original_Mname)) AND ((@IsNull_Lname = 1 AND [Lname] IS NULL) OR ([Lname] = @Original_Lname)) AND ((@IsNull_Adrs1 = 1 AND [Adrs1] IS NULL) OR ([Adrs1] = @Original_Adrs1)) AND ((@IsNull_Adrs2 = 1 AND [Adrs2] IS NULL) OR ([Adrs2] = @Original_Adrs2)) AND ((@IsNull_ContactNo = 1 AND [ContactNo] IS NULL) OR ([ContactNo] = @Original_ContactNo)))</value>
+  </data>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [StudentPersonalInfo] ([Fname], [Mname], [Lname], [Adrs1], [Adrs2], [ContactNo]) VALUES (@Fname, @Mname, @Lname, @Adrs1, @Adrs2, @ContactNo);
+SELECT Student_Id, Fname, Mname, Lname, Adrs1, Adrs2, ContactNo FROM StudentPersonalInfo WHERE (Student_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [StudentPersonalInfo] SET [Fname] = @Fname, [Mname] = @Mname, [Lname] = @Lname, [Adrs1] = @Adrs1, [Adrs2] = @Adrs2, [ContactNo] = @ContactNo WHERE (([Student_Id] = @Original_Student_Id) AND ((@IsNull_Fname = 1 AND [Fname] IS NULL) OR ([Fname] = @Original_Fname)) AND ((@IsNull_Mname = 1 AND [Mname] IS NULL) OR ([Mname] = @Original_Mname)) AND ((@IsNull_Lname = 1 AND [Lname] IS NULL) OR ([Lname] = @Original_Lname)) AND ((@IsNull_Adrs1 = 1 AND [Adrs1] IS NULL) OR ([Adrs1] = @Original_Adrs1)) AND ((@IsNull_Adrs2 = 1 AND [Adrs2] IS NULL) OR ([Adrs2] = @Original_Adrs2)) AND ((@IsNull_ContactNo = 1 AND [ContactNo] IS NULL) OR ([ContactNo] = @Original_ContactNo)));
+SELECT Student_Id, Fname, Mname, Lname, Adrs1, Adrs2, ContactNo FROM StudentPersonalInfo WHERE (Student_Id = @Student_Id)</value>
+  </data>
+  <metadata name="dsTran.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dsTran.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="AdpDet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>644, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand3.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl1] WHERE (([Tbl1_row_Id] = @Original_Tbl1_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand3.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl1] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl1_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl1 WHERE (Tbl1_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl1] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl1_row_Id] = @Original_Tbl1_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl1_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl1 WHERE (Tbl1_row_Id = @Tbl1_row_Id)</value>
+  </data>
+  <metadata name="adpDet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>889, 103</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM [axl_security] WHERE (([user_Id] = @Original_user_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)))</value>
+  </data>
+  <metadata name="sqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [axl_security] ([Student_Id], [username], [salt], [hash_code]) VALUES (@Student_Id, @username, @salt, @hash_code);
+SELECT user_Id, Student_Id, username, salt, hash_code FROM axl_security WHERE (user_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [axl_security] SET [Student_Id] = @Student_Id, [username] = @username, [salt] = @salt, [hash_code] = @hash_code WHERE (([user_Id] = @Original_user_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)));
+SELECT user_Id, Student_Id, username, salt, hash_code FROM axl_security WHERE (user_Id = @user_Id)</value>
+  </data>
+  <metadata name="adpDet10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>247, 60</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand11.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl9] WHERE (([Tbl9_row_Id] = @Original_Tbl9_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand11.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl9] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl9_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl9 WHERE (Tbl9_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand11.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl9] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl9_row_Id] = @Original_Tbl9_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl9_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl9 WHERE (Tbl9_row_Id = @Tbl9_row_Id)</value>
+  </data>
+  <metadata name="adpDet11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>370, 60</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand12.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl10] WHERE (([Tbl10_row_Id] = @Original_Tbl10_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand12.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl10] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl10_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl10 WHERE (Tbl10_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand12.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl10] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl10_row_Id] = @Original_Tbl10_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl10_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl10 WHERE (Tbl10_row_Id = @Tbl10_row_Id)</value>
+  </data>
+  <metadata name="adpDet12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>493, 60</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand13.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl11] WHERE (([Tbl11_row_Id] = @Original_Tbl11_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand13.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl11] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl11_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl11 WHERE (Tbl11_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand13.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl11] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl11_row_Id] = @Original_Tbl11_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl11_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl11 WHERE (Tbl11_row_Id = @Tbl11_row_Id)</value>
+  </data>
+  <metadata name="adpDet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>866, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl2] WHERE (([Tbl2_row_Id] = @Original_Tbl2_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand4.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl2] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl2_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl2 WHERE (Tbl2_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl2] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl2_row_Id] = @Original_Tbl2_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl2_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl2 WHERE (Tbl2_row_Id = @Tbl2_row_Id)</value>
+  </data>
+  <metadata name="adpDet4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>981, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand5.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl3] WHERE (([Tbl3_row_Id] = @Original_Tbl3_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand5.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl3] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl3_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl3 WHERE (Tbl3_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand5.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl3] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl3_row_Id] = @Original_Tbl3_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl3_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl3 WHERE (Tbl3_row_Id = @Tbl3_row_Id)</value>
+  </data>
+  <metadata name="adpDet5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1096, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand6.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl4] WHERE (([Tbl4_row_Id] = @Original_Tbl4_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand6.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl4] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl4_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl4 WHERE (Tbl4_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand6.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl4] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl4_row_Id] = @Original_Tbl4_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl4_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl4 WHERE (Tbl4_row_Id = @Tbl4_row_Id)</value>
+  </data>
+  <metadata name="adpDet6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1211, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand7.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl5] WHERE (([Tbl5_row_Id] = @Original_Tbl5_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand7.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl5] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl5_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl5 WHERE (Tbl5_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand7.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl5] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl5_row_Id] = @Original_Tbl5_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl5_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl5 WHERE (Tbl5_row_Id = @Tbl5_row_Id)</value>
+  </data>
+  <metadata name="adpDet7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1326, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand8.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl6] WHERE (([Tbl6_row_Id] = @Original_Tbl6_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand8.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl6] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl6_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl6 WHERE (Tbl6_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand8.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl6] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl6_row_Id] = @Original_Tbl6_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl6_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl6 WHERE (Tbl6_row_Id = @Tbl6_row_Id)</value>
+  </data>
+  <metadata name="adpDet8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 60</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand9.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl7] WHERE (([Tbl7_row_Id] = @Original_Tbl7_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand9.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl7] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl7_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl7 WHERE (Tbl7_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand9.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl7] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl7_row_Id] = @Original_Tbl7_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl7_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl7 WHERE (Tbl7_row_Id = @Tbl7_row_Id)</value>
+  </data>
+  <metadata name="adpDet9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 60</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand10.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl8] WHERE (([Tbl8_row_Id] = @Original_Tbl8_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand10.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl8] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl8_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl8 WHERE (Tbl8_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand10.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl8] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl8_row_Id] = @Original_Tbl8_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl8_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl8 WHERE (Tbl8_row_Id = @Tbl8_row_Id)</value>
+  </data>
+  <metadata name="bsDet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>761, 17</value>
+  </metadata>
+  <metadata name="bsDet10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>437, 103</value>
+  </metadata>
+  <metadata name="bsDet11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>550, 103</value>
+  </metadata>
+  <metadata name="bsDet12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>663, 103</value>
+  </metadata>
+  <metadata name="bsDet13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>776, 103</value>
+  </metadata>
+  <metadata name="bsDet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>985, 60</value>
+  </metadata>
+  <metadata name="bsDet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1090, 60</value>
+  </metadata>
+  <metadata name="bsDet4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1195, 60</value>
+  </metadata>
+  <metadata name="bsDet5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1300, 60</value>
+  </metadata>
+  <metadata name="bsDet6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 103</value>
+  </metadata>
+  <metadata name="bsDet7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>122, 103</value>
+  </metadata>
+  <metadata name="bsDet8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>227, 103</value>
+  </metadata>
+  <metadata name="bsDet9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>332, 103</value>
+  </metadata>
+  <metadata name="bsHdr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>391, 17</value>
+  </metadata>
+  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>489, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>238</value>
+  </metadata>
+  <metadata name="adpDet13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>616, 60</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand14.CommandText" xml:space="preserve">
+    <value>DELETE FROM [SampTbl12] WHERE (([Tbl12_row_Id] = @Original_Tbl12_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)))</value>
+  </data>
+  <metadata name="sqlInsertCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand14.CommandText" xml:space="preserve">
+    <value>INSERT INTO [SampTbl12] ([Student_Id], [Fld_String], [Fld_Int], [Fld_Bool]) VALUES (@Student_Id, @Fld_String, @Fld_Int, @Fld_Bool);
+SELECT Tbl12_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl12 WHERE (Tbl12_row_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand14.CommandText" xml:space="preserve">
+    <value>UPDATE [SampTbl12] SET [Student_Id] = @Student_Id, [Fld_String] = @Fld_String, [Fld_Int] = @Fld_Int, [Fld_Bool] = @Fld_Bool WHERE (([Tbl12_row_Id] = @Original_Tbl12_row_Id) AND ((@IsNull_Student_Id = 1 AND [Student_Id] IS NULL) OR ([Student_Id] = @Original_Student_Id)) AND ((@IsNull_Fld_String = 1 AND [Fld_String] IS NULL) OR ([Fld_String] = @Original_Fld_String)) AND ((@IsNull_Fld_Int = 1 AND [Fld_Int] IS NULL) OR ([Fld_Int] = @Original_Fld_Int)) AND ((@IsNull_Fld_Bool = 1 AND [Fld_Bool] IS NULL) OR ([Fld_Bool] = @Original_Fld_Bool)));
+SELECT Tbl12_row_Id, Student_Id, Fld_String, Fld_Int, Fld_Bool FROM SampTbl12 WHERE (Tbl12_row_Id = @Tbl12_row_Id)</value>
+  </data>
+  <metadata name="adpDet14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>739, 60</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand15.CommandText" xml:space="preserve">
+    <value>DELETE FROM [StudentGrade] WHERE (([StudGrd_Id] = @Original_StudGrd_Id) AND ([subject_Id] = @Original_subject_Id) AND ([Student_Id] = @Original_Student_Id) AND ((@IsNull_Grd1 = 1 AND [Grd1] IS NULL) OR ([Grd1] = @Original_Grd1)) AND ((@IsNull_Grd2 = 1 AND [Grd2] IS NULL) OR ([Grd2] = @Original_Grd2)) AND ((@IsNull_Grd3 = 1 AND [Grd3] IS NULL) OR ([Grd3] = @Original_Grd3)) AND ((@IsNull_Grd4 = 1 AND [Grd4] IS NULL) OR ([Grd4] = @Original_Grd4)) AND ((@IsNull_Grd5 = 1 AND [Grd5] IS NULL) OR ([Grd5] = @Original_Grd5)) AND ((@IsNull_Grd6 = 1 AND [Grd6] IS NULL) OR ([Grd6] = @Original_Grd6)) AND ((@IsNull_Remarks = 1 AND [Remarks] IS NULL) OR ([Remarks] = @Original_Remarks)))</value>
+  </data>
+  <metadata name="sqlInsertCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand15.CommandText" xml:space="preserve">
+    <value>INSERT INTO [StudentGrade] ([subject_Id], [Student_Id], [Grd1], [Grd2], [Grd3], [Grd4], [Grd5], [Grd6], [Remarks]) VALUES (@subject_Id, @Student_Id, @Grd1, @Grd2, @Grd3, @Grd4, @Grd5, @Grd6, @Remarks);
+SELECT StudGrd_Id, subject_Id, Student_Id, Grd1, Grd2, Grd3, Grd4, Grd5, Grd6, Remarks FROM StudentGrade WHERE (StudGrd_Id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand15.CommandText" xml:space="preserve">
+    <value>UPDATE [StudentGrade] SET [subject_Id] = @subject_Id, [Student_Id] = @Student_Id, [Grd1] = @Grd1, [Grd2] = @Grd2, [Grd3] = @Grd3, [Grd4] = @Grd4, [Grd5] = @Grd5, [Grd6] = @Grd6, [Remarks] = @Remarks WHERE (([StudGrd_Id] = @Original_StudGrd_Id) AND ([subject_Id] = @Original_subject_Id) AND ([Student_Id] = @Original_Student_Id) AND ((@IsNull_Grd1 = 1 AND [Grd1] IS NULL) OR ([Grd1] = @Original_Grd1)) AND ((@IsNull_Grd2 = 1 AND [Grd2] IS NULL) OR ([Grd2] = @Original_Grd2)) AND ((@IsNull_Grd3 = 1 AND [Grd3] IS NULL) OR ([Grd3] = @Original_Grd3)) AND ((@IsNull_Grd4 = 1 AND [Grd4] IS NULL) OR ([Grd4] = @Original_Grd4)) AND ((@IsNull_Grd5 = 1 AND [Grd5] IS NULL) OR ([Grd5] = @Original_Grd5)) AND ((@IsNull_Grd6 = 1 AND [Grd6] IS NULL) OR ([Grd6] = @Original_Grd6)) AND ((@IsNull_Remarks = 1 AND [Remarks] IS NULL) OR ([Remarks] = @Original_Remarks)));
+SELECT StudGrd_Id, subject_Id, Student_Id, Grd1, Grd2, Grd3, Grd4, Grd5, Grd6, Remarks FROM StudentGrade WHERE (StudGrd_Id = @StudGrd_Id)</value>
+  </data>
+  <metadata name="bsDet14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1004, 103</value>
+  </metadata>
+</root>

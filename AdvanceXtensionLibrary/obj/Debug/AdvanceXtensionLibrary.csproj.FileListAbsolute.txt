@@ -1,0 +1,23 @@
+C:\Users\Akuseru\source\repos\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Debug\AdvanceXtensionLibrary.dll.config
+C:\Users\Akuseru\source\repos\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Debug\AdvanceXtensionLibrary.dll
+C:\Users\Akuseru\source\repos\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Debug\AdvanceXtensionLibrary.pdb
+C:\Users\Akuseru\source\repos\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.AXL_CRUD_Controller.resources
+C:\Users\Akuseru\source\repos\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.csproj.GenerateResource.cache
+C:\Users\Akuseru\source\repos\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.dll
+C:\Users\Akuseru\source\repos\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.pdb
+D:\Projects\Visual Studio\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.AXL_CRUD_Controller.resources
+D:\Projects\Visual Studio\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.csproj.GenerateResource.cache
+D:\Projects\Visual Studio\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Debug\AdvanceXtensionLibrary.dll.config
+D:\Projects\Visual Studio\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Debug\AdvanceXtensionLibrary.dll
+D:\Projects\Visual Studio\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Debug\AdvanceXtensionLibrary.pdb
+D:\Projects\Visual Studio\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.dll
+D:\Projects\Visual Studio\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.pdb
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Debug\AdvanceXtensionLibrary.dll.config
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Debug\AdvanceXtensionLibrary.dll
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Debug\AdvanceXtensionLibrary.pdb
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.AXL_CRUD_Controller.resources
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.csproj.GenerateResource.cache
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.dll
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.pdb
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Debug\AdvanceXtensionLibrary.csproj.AssemblyReference.cache

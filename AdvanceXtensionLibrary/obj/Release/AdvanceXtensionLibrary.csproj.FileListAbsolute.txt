@@ -1,0 +1,8 @@
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Release\AdvanceXtensionLibrary.dll.config
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Release\AdvanceXtensionLibrary.dll
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\bin\Release\AdvanceXtensionLibrary.pdb
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Release\AdvanceXtensionLibrary.AXL_CRUD_Controller.resources
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Release\AdvanceXtensionLibrary.csproj.GenerateResource.cache
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Release\AdvanceXtensionLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Release\AdvanceXtensionLibrary.dll
+D:\Projects\Visual Studio\MyTemplates\AdvanceXtensionLibrary\AdvanceXtensionLibrary\obj\Release\AdvanceXtensionLibrary.pdb
